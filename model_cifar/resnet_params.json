@@ -1,0 +1,19 @@
+{
+    "cuda": true,
+    "device": "-1",
+    "learning_rate": 1e-1,
+    "weight_penalty" : 1e-6,
+    "batch_size": 128,
+    "num_epochs": 5,
+    "dropout":0.05, 
+    "save_summary_steps": 10,
+    "num_workers": 4,
+    "num_class": 10,
+    "kernel_size": 10,
+    "pool_size": 2,
+    "bit_quant" : 8,
+    "hw_range": 5,
+    "w_p_loss" : 1,
+    "get_power" : 0,
+    "l1_norm": 0
+}
